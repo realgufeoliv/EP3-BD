@@ -1,0 +1,21 @@
+<header style=" padding: none; margin: none !important" >
+  <div style="display: grid; justify-items: center;     ">
+    <h1 class="teste">
+      <a
+        style="text-decoration: none; list-style: none; color: inherit"
+        href="{% url 'movies:index' %}"
+      >
+        Cine Data
+      </a>
+    </h1>
+  </div>
+  <nav style="display: grid; grid-template-columns: 1fr 1fr; justify-content:center; margin: 0 40% 0 40%;">
+    <div style="border: solid 1px black; text-align: center;" >
+      <a href="{% url 'movies:index' %}">Cadastro</a> 
+    </div>
+    <div style="border: solid 1px black; text-align: center;"> <a href="{% url 'movies:graphics' %}">Gráficos</a> </div>
+  </nav>
+</header>
+<style>
+  
+</style>
